@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>430704908847-f48gqpdthtlf9eu002gi7ni894l47oom.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.430704908847-f48gqpdthtlf9eu002gi7ni894l47oom</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAbgVquMT4wb5pD_JW4ABV6qlEbY2BkHmM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>430704908847</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.igym.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>igym-dbb85</string>
+	<key>STORAGE_BUCKET</key>
+	<string>igym-dbb85.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:430704908847:ios:35d94e37b5cebac2b684da</string>
+</dict>
+</plist>

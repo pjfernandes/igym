@@ -58,22 +58,6 @@
           }
         },
         {
-          "client_id": "430704908847-md8k49vlnu1u933u2l5iq5uvclcdso2k.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.igym",
-            "certificate_hash": "9daea68073d57170142cf6dd7cbf0527e32d931e"
-          }
-        },
-        {
-          "client_id": "430704908847-uudvgje0bosvolki4mi6a3dfaerluf3i.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.igym",
-            "certificate_hash": "b7751885ba7d51ced38b0cbbdcc30de9775b1fc6"
-          }
-        },
-        {
           "client_id": "430704908847-p9mk40punec9u7t6aqsh5ripee92mbd5.apps.googleusercontent.com",
           "client_type": 3
         }
