@@ -71,7 +71,12 @@ class _LoginPageState extends State<LoginPage> {
         Provider.of<NewGymUserFormData>(context, listen: false);
     return Scaffold(
         appBar: AppBar(
-          title: const Text('iGym'),
+          title: const Center(
+            child: Text(
+              'iGym',
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
         ),
         body: Center(
           child: Column(
@@ -130,7 +135,8 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                             const Text(
                               "Sign in with Google/Gmail",
-                              style: TextStyle(fontSize: 15),
+                              style:
+                                  TextStyle(fontSize: 15, color: Colors.white),
                             ),
                           ],
                         ),

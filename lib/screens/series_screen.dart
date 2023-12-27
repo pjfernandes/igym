@@ -7,7 +7,10 @@ class SeriesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('iGym'),
+        title: const Text(
+          'My exercises',
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: Center(
         child: Text('Bodybuilding Exercise Series'),

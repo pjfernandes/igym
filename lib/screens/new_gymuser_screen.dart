@@ -86,19 +86,24 @@ class _NewGymUserScreenState extends State<NewGymUserScreen> {
         Provider.of<NewGymUserFormData>(context, listen: false);
     return Scaffold(
       appBar: AppBar(
-        title: Text('User Profile'),
+        title: Text(
+          'User Profile',
+          style: TextStyle(
+            color: Colors.white,
+          ),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
-          //mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(1.0),
               child: Image.asset(
                 'assets/images/logo.png',
                 width: double.infinity,
-                height: 100,
+                height: 180,
               ),
             ),
             TextFormField(
@@ -137,7 +142,10 @@ class _NewGymUserScreenState extends State<NewGymUserScreen> {
                   ),
                 );
               },
-              child: Text('Submit'),
+              child: const Text(
+                'Submit',
+                style: TextStyle(color: Colors.white),
+              ),
             ),
           ],
         ),
